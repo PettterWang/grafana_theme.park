@@ -1338,33 +1338,33 @@ input:checked+.gf-form-switch__slider {
 }
 
 :root {
-  --main-bg-color: linear-gradient(0deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
+  --main-bg-color: #1f1f1f;
 
-  --modal-bg-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-header-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-footer-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  
-  --drop-down-menu-bg: #5e61ab;
+  --modal-bg-color: #333;
+  --modal-header-color: #232323;
+  --modal-footer-color: #232323;
 
-  --button-color: #f98dc9;
-  --button-color-hover: #ff4cb1;
+  --drop-down-menu-bg: #1b1b1b;
+
+  --button-color: #2cabe3;
+  --button-color-hover: #298fbc;
   --button-text: #eee;
   --button-text-hover: #fff;
-  
-  --accent-color:  249, 141, 201;
+
+  --accent-color:  44, 171, 227;
   --accent-color-hover: rgb(var(--accent-color),.8);
-  --link-color:rgb(255, 179, 222);
-  --link-color-hover: #d7fffe;
+  --link-color: #2cabe3;
+  --link-color-hover: #3cc5ff;
   --label-text-color: #fff;
     
-  --text:#ddd;
+  --text:#96a2b4;
   --text-hover: #fff;
   --text-muted: #999;
 
   /*Specials*/
-  --arr-queue-color: #f98dc9; /* Servarr apps + Bazarr*/
-  --plex-poster-unwatched: #f765b8;
-  --petio-spinner: invert(78%) sepia(17%) saturate(4447%) hue-rotate(290deg) brightness(109%) contrast(95%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */ 
-  --gitea-color-primary-dark-4: 215,255,254;
-  --overseerr-gradient: linear-gradient(0deg, rgba(247,101,184,.9) 0%, rgb(21, 95, 165,.9) 100%) center center/cover no-repeat fixed;
+  --arr-queue-color: #2cabe3; /* Servarr apps + Bazarr*/
+  --plex-poster-unwatched: #2cabe3;
+  --petio-spinner: invert(65%) sepia(83%) saturate(2026%) hue-rotate(167deg) brightness(90%) contrast(97%);/* Made with https://codepen.io/jsm91/embed/ZEEawyZ */
+  --gitea-color-primary-dark-4: 44, 171, 227;
+  --overseerr-gradient: linear-gradient(180deg, rgba(31, 31, 31, 0.17) 0%, rgba(31, 31, 31) 100%);
 }

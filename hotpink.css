@@ -1338,33 +1338,33 @@ input:checked+.gf-form-switch__slider {
 }
 
 :root {
-  --main-bg-color: linear-gradient(0deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
+  --main-bg-color: linear-gradient(45deg, #fb3f62 0%, #204c80 37%, #004249 97%) center center/cover no-repeat fixed;
 
-  --modal-bg-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-header-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-footer-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  
-  --drop-down-menu-bg: #5e61ab;
+  --modal-bg-color: linear-gradient(-45deg, #204c80 0%, #000 100%) center center/cover no-repeat fixed;
+  --modal-header-color: linear-gradient(-45deg, #204c80 0%, #000 100%) center center/cover no-repeat fixed;
+  --modal-footer-color: linear-gradient(-45deg, #204c80 0%, #000 100%) center center/cover no-repeat fixed;
 
-  --button-color: #f98dc9;
-  --button-color-hover: #ff4cb1;
+  --drop-down-menu-bg: #204c80;
+
+  --button-color: #fb3f62;
+  --button-color-hover: #cd4164;
   --button-text: #eee;
-  --button-text-hover: #fff;
+  --button-text-hover: #FFF;
+
+  --accent-color:  251, 63, 98;
+  --accent-color-hover: rgba(var(--accent-color), .8);
+  --link-color: rgb(0, 255, 157);
+  --link-color-hover: rgba(0, 255, 157, 0.8);
+  --label-text-color: #282a36;
   
-  --accent-color:  249, 141, 201;
-  --accent-color-hover: rgb(var(--accent-color),.8);
-  --link-color:rgb(255, 179, 222);
-  --link-color-hover: #d7fffe;
-  --label-text-color: #fff;
-    
-  --text:#ddd;
+  --text:#eee;
   --text-hover: #fff;
   --text-muted: #999;
+  
+  --arr-queue-color: rgb(0, 255, 157);
+  --plex-poster-unwatched: #fb3f62;
+  --petio-spinner: invert(29%) sepia(87%) saturate(2199%) hue-rotate(331deg) brightness(115%) contrast(97%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */
+  --gitea-color-primary-dark-4: 251, 63, 98;
+  --overseerr-gradient: linear-gradient(45deg, rgb(251, 63, 98,1) 0%, rgb(32, 76, 128,.95) 37%, rgb(0, 66, 73,.9) 97%) center center/cover no-repeat fixed;
+  }
 
-  /*Specials*/
-  --arr-queue-color: #f98dc9; /* Servarr apps + Bazarr*/
-  --plex-poster-unwatched: #f765b8;
-  --petio-spinner: invert(78%) sepia(17%) saturate(4447%) hue-rotate(290deg) brightness(109%) contrast(95%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */ 
-  --gitea-color-primary-dark-4: 215,255,254;
-  --overseerr-gradient: linear-gradient(0deg, rgba(247,101,184,.9) 0%, rgb(21, 95, 165,.9) 100%) center center/cover no-repeat fixed;
-}

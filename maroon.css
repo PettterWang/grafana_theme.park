@@ -1338,33 +1338,33 @@ input:checked+.gf-form-switch__slider {
 }
 
 :root {
-  --main-bg-color: linear-gradient(0deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-
-  --modal-bg-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-header-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-footer-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
+  --main-bg-color: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(76,21,51,1) 0%, rgba(34,10,37,1) 90% ) center center/cover no-repeat fixed;
   
-  --drop-down-menu-bg: #5e61ab;
+  --modal-bg-color: linear-gradient(-90deg, rgba(76,21,51,1) 0%, rgba(34,10,37,1) 90% ) center center/cover no-repeat fixed;
+  --modal-header-color: linear-gradient(-90deg, rgba(76,21,51,1) 0%, rgba(34,10,37,1) 90% ) center center/cover no-repeat fixed;
+  --modal-footer-color: linear-gradient(-90deg, rgba(76,21,51,1) 0%, rgba(34,10,37,1) 90% ) center center/cover no-repeat fixed;
 
-  --button-color: #f98dc9;
-  --button-color-hover: #ff4cb1;
+  --drop-down-menu-bg: #220a25;
+  
+  --button-color: #7b154d;
+  --button-color-hover: rgb(150, 26, 94);
   --button-text: #eee;
-  --button-text-hover: #fff;
+  --button-text-hover: #FFF;
   
-  --accent-color:  249, 141, 201;
+  --accent-color: 162, 28, 101;
   --accent-color-hover: rgb(var(--accent-color),.8);
-  --link-color:rgb(255, 179, 222);
-  --link-color-hover: #d7fffe;
+  --link-color: rgb(162, 28, 101);
+  --link-color-hover: rgb(194, 36, 122);
   --label-text-color: #fff;
-    
-  --text:#ddd;
+
+  --text:#dadada;
   --text-hover: #fff;
   --text-muted: #999;
 
-  /*Specials*/
-  --arr-queue-color: #f98dc9; /* Servarr apps + Bazarr*/
-  --plex-poster-unwatched: #f765b8;
-  --petio-spinner: invert(78%) sepia(17%) saturate(4447%) hue-rotate(290deg) brightness(109%) contrast(95%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */ 
-  --gitea-color-primary-dark-4: 215,255,254;
-  --overseerr-gradient: linear-gradient(0deg, rgba(247,101,184,.9) 0%, rgb(21, 95, 165,.9) 100%) center center/cover no-repeat fixed;
-}
+   /*Specials*/
+  --arr-queue-color: #6b5; /* Servarr apps + Bazarr*/
+  --plex-poster-unwatched: rgb(123, 21, 77);
+  --petio-spinner: invert(13%) sepia(77%) saturate(2418%) hue-rotate(306deg) brightness(94%) contrast(98%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */
+  --gitea-color-primary-dark-4: 150, 26, 94;
+  --overseerr-gradient: linear-gradient(0deg, rgba(76,21,51,.9) 0%, rgb(34,10,37,.9) 100%) center center/cover no-repeat fixed;
+  }

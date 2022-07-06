@@ -1338,33 +1338,33 @@ input:checked+.gf-form-switch__slider {
 }
 
 :root {
-  --main-bg-color: linear-gradient(0deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-
-  --modal-bg-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-header-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-footer-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
+  --main-bg-color: #2E3440;
   
-  --drop-down-menu-bg: #5e61ab;
+  --modal-bg-color: #3B4252;
+  --modal-header-color: #434C5E;
+  --modal-footer-color: #434C5E;
 
-  --button-color: #f98dc9;
-  --button-color-hover: #ff4cb1;
-  --button-text: #eee;
-  --button-text-hover: #fff;
-  
-  --accent-color:  249, 141, 201;
+  --drop-down-menu-bg: #333947;
+
+  --button-color: #79b8ca;
+  --button-color-hover: #6a9daf;
+  --button-text: #2E3440;
+  --button-text-hover: #D8DEE9;
+
+  --accent-color: 121, 184, 202;
   --accent-color-hover: rgb(var(--accent-color),.8);
-  --link-color:rgb(255, 179, 222);
-  --link-color-hover: #d7fffe;
-  --label-text-color: #fff;
+  --link-color: #81A1C1;
+  --link-color-hover: #88C0D0;
+  --label-text-color: #222730;
     
-  --text:#ddd;
-  --text-hover: #fff;
-  --text-muted: #999;
+  --text:#D8DEE9;
+  --text-hover: #ECEFF4;
+  --text-muted: #81A1C1;
 
   /*Specials*/
-  --arr-queue-color: #f98dc9; /* Servarr apps + Bazarr*/
-  --plex-poster-unwatched: #f765b8;
-  --petio-spinner: invert(78%) sepia(17%) saturate(4447%) hue-rotate(290deg) brightness(109%) contrast(95%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */ 
-  --gitea-color-primary-dark-4: 215,255,254;
-  --overseerr-gradient: linear-gradient(0deg, rgba(247,101,184,.9) 0%, rgb(21, 95, 165,.9) 100%) center center/cover no-repeat fixed;
-}
+  --arr-queue-color: #A3BE8C; /* Servarr apps + Bazarr*/
+  --plex-poster-unwatched: #D08770;
+  --petio-spinner: invert(83%) sepia(9%) saturate(1787%) hue-rotate(156deg) brightness(85%) contrast(83%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */
+  --gitea-color-primary-dark-4: 121, 184, 202;
+  --overseerr-gradient: linear-gradient(180deg, rgba(46, 52, 64, 0.17) 0%, rgba(46, 52, 64) 100%);
+  }

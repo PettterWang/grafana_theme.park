@@ -1,4 +1,4 @@
-/*    dP   dP                                                                  dP        */
+ /*    dP   dP                                                                  dP        */
 /*    88   88                                                                  88        */
 /*  d8888P 88d888b. .d8888b. 88d8b.d8b. .d8888b.    88d888b. .d8888b. 88d888b. 88  .dP   */
 /*    88   88'  `88 88ooood8 88'`88'`88 88ooood8    88'  `88 88'  `88 88'  `88 88888"    */
@@ -1337,34 +1337,38 @@ input:checked+.gf-form-switch__slider {
     color: var(--text-hover) !important;
 }
 
-:root {
-  --main-bg-color: linear-gradient(0deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
+ :root {
+   /* 
+     --main-bg-color: url(/resources/blur-noise.png), url(/resources/preset-light2.png) center center/cover no-repeat fixed;
+     --modal-bg-color: url(/resources/blur-noise.png), url(/resources/preset-dark2.png) center center/cover no-repeat fixed;
+     --main-bg-color: url(/resources/blur-noise.png) repeat scroll 0% 0%, radial-gradient(circle at 0% 100%, rgba(54, 66, 84, 0.55) 0%, rgba(54, 66, 84, 0.043) 70%, rgba(54, 66, 84, 0) 80%), radial-gradient(circle at 100% 100%, rgba(113, 135, 153, 0.55) 0%, rgba(113, 135, 153, 0.043) 70%, rgba(113, 135, 153, 0) 80%), radial-gradient(circle at 100% 0%, rgba(54, 66, 84, 0.55) 0%, rgba(54, 66, 84, 0.043) 70%, rgba(54, 66, 84, 0) 80%), radial-gradient(circle at 0% 0%, rgba(91, 114, 135, 0.55) 0%, rgba(91, 114, 135, 0.043) 70%, rgba(91, 114, 135, 0) 80%), rgb(0, 0, 0) center center/cover no-repeat fixed;
+     */
+   --main-bg-color: radial-gradient(circle farthest-side at 0% 100%, rgb(47, 47, 47) 0%, rgba(47, 47, 47, 0) 100%), radial-gradient(circle farthest-side at 100% 100%, rgb(63, 63, 63) 0%, rgba(63, 63, 63, 0) 100%), radial-gradient(circle farthest-side at 100% 0%, rgb(76, 76, 76) 0%, rgba(76, 76, 76, 0) 100%), radial-gradient(circle farthest-side at 0% 0%, rgb(58, 58, 58) 0%, rgba(58, 58, 58, 0) 100%), black center center/cover no-repeat fixed;
+   --modal-bg-color: #282828;
+   --modal-header-color: #323232;
+   --modal-footer-color: #323232;
 
-  --modal-bg-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-header-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  --modal-footer-color: linear-gradient(-90deg, rgba(247,101,184,1) 0%, rgb(21, 95, 165) 100%) center center/cover no-repeat fixed;
-  
-  --drop-down-menu-bg: #5e61ab;
+   --drop-down-menu-bg: #191a1c;
 
-  --button-color: #f98dc9;
-  --button-color-hover: #ff4cb1;
-  --button-text: #eee;
-  --button-text-hover: #fff;
-  
-  --accent-color:  249, 141, 201;
-  --accent-color-hover: rgb(var(--accent-color),.8);
-  --link-color:rgb(255, 179, 222);
-  --link-color-hover: #d7fffe;
-  --label-text-color: #fff;
-    
-  --text:#ddd;
-  --text-hover: #fff;
-  --text-muted: #999;
+   --button-color: #cc7b19;
+   --button-color-hover: #e59029;
+   --button-text: #eee;
+   --button-text-hover: #fff;
 
-  /*Specials*/
-  --arr-queue-color: #f98dc9; /* Servarr apps + Bazarr*/
-  --plex-poster-unwatched: #f765b8;
-  --petio-spinner: invert(78%) sepia(17%) saturate(4447%) hue-rotate(290deg) brightness(109%) contrast(95%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */ 
-  --gitea-color-primary-dark-4: 215,255,254;
-  --overseerr-gradient: linear-gradient(0deg, rgba(247,101,184,.9) 0%, rgb(21, 95, 165,.9) 100%) center center/cover no-repeat fixed;
-}
+   --accent-color: 229, 160, 13;
+   --accent-color-hover: #ffc107;
+   --link-color: #e5a00d;
+   --link-color-hover: #fff;
+   --label-text-color: #333;
+
+   --text:#ddd;
+   --text-hover: #fff;
+   --text-muted: #999;
+
+    /*Specials*/
+    --arr-queue-color: #27c24c; /* Servarr apps + Bazarr*/
+    --plex-poster-unwatched: #e5a00d;
+    --petio-spinner: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);/* Made with https://codepen.io/jsm91/embed/ZEEawyZ */
+    --gitea-color-primary-dark-4: 255, 193, 7;
+    --overseerr-gradient: radial-gradient(circle farthest-side at 0% 100%, rgb(47, 47, 47) 0%, rgba(47, 47, 47, 0) 100%), radial-gradient(circle farthest-side at 100% 100%, rgb(63, 63, 63) 0%, rgba(63, 63, 63, 0) 100%), radial-gradient(circle farthest-side at 100% 0%, rgb(76, 76, 76) 0%, rgba(76, 76, 76, 0) 100%), radial-gradient(circle farthest-side at 0% 0%, rgb(58, 58, 58) 0%, rgba(58, 58, 58, 0) 100%), rgba(0, 0, 0, 0.5) center center/cover no-repeat fixed;
+  }
